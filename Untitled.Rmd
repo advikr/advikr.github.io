@@ -1,0 +1,25 @@
+---
+title: "Advik Ravichandran"
+image: "IMG_4923.jpg"
+links:
+  - label: GitHub
+    url: "https://github.com/advikr"
+output:
+  postcards::trestles
+---
+
+
+## About
+
+I am a junior at the University of Texas at Austin studying statistics and data science, minoring in computer science. In the website, I have attached a picture of my dog.
+
+## Favorite Shows
+
+- Suits
+- Austin and Ally
+- Bridgerton
+
+
+```{r build-time, echo = FALSE, results = 'asis'}
+cat("Site last built:", format(Sys.time(), "%B %d, %Y at %I:%M:%S %p %Z"))
+```
